@@ -12,7 +12,7 @@ estimate_beta(y, X)
 \item{X}{Also a numerical vector, observations.}
 }
 \value{
-A numerical vector of (X^T X)^{-1} X^T y.
+A numerical vector of (X^T X)^(-1) X^T y.
 }
 \description{
 OLS estimator
